@@ -104,4 +104,6 @@
 - This guy is a genius. 
 - Distributing shares made easier. 
 - Each shareholder creates their own secret polynomial and contributes g^cj for each coefficient cj. Then each shareholder gives one point from their poly to every other shareholder (these can be verified by computing g^(P(i)) - easily doable since all the g^cj have been already published.) 
-- All these polys are used to create one global poly and then all the shareholders can sum up their points from each poly that they received and this constitutes their share of the overall global poly. Explanation is a bit shady here, but will be better when I summarize the paper fully.  
+- All these polys are used to create one global poly and then all the shareholders can sum up their points from each poly that they received and this constitutes their share of the overall global poly. Explanation is a bit shady here, but will be better when I summarize the paper fully. 
+
+I read this paper over once again, I will read the Threshold part again at a later time (I want to move tothe other paper and start coding as soon as I can).  
